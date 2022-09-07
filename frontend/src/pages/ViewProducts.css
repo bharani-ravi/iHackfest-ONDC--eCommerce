@@ -1,0 +1,8 @@
+.products-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  row-gap: 30px;
+  column-gap: 30px;
+}

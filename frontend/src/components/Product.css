@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.details {
+  margin-top: 100px;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  background-color: white;
+  display: flex;
+}
+.img {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+.img-pic {
+  width: 90%;
+  height: auto;
+}
+.icon {
+  width: 30px;
+  font-weight: 600;
+}
+.flex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 2rem;
+}
+.add-to-cart {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: coral;
+}
+.by-now {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: coral;
+}
+.add-to-cart button {
+  color: white;
+  background-color: coral;
+  border: none;
+  height: 3rem;
+  width: 9rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+.by-now button {
+  color: white;
+  background-color: coral;
+  border: none;
+  height: 3rem;
+  width: 9rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn-red {
+  background-color: red;
+}
+.btn-green {
+  background-color: green;
+}
+.desc {
+  flex: 0.6;
+  width: 100%;
+  margin-top: 1rem;
+}
+.desc input {
+  border: none;
+  height: 3.5rem;
+}
+.delivery {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.delivery span {
+  margin-right: 1rem;
+}
+.delivery-flex {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  /* position: relative; */
+  border-bottom: 2px solid rgb(106, 106, 198);
+}
+.delivery-flex input:focus {
+  outline: none;
+}
+
+.inc-dec-flex {
+  display: flex;
+  gap: 1rem;
+  margin-top: 50px;
+  margin-bottom: 0.5rem;
+}
+.inc-dec button {
+  width: 3rem;
+  height: 1.5rem;
+  border: none;
+}
+.description h3 {
+  margin-bottom: 1rem;
+}
+.status {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.status h3 {
+  color: #333;
+}
+.status h4 {
+  color: red;
+}
